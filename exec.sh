@@ -12,4 +12,4 @@ mkdir /tmp/webcord
 sudo rpm -ivh /tmp/webcord/webcord.rpm
 rm -rf /tmp/webcord
 wget https://raw.githubusercontent.com/MiMillieuh/Webcord-Wayland/main/webcord.desktop -O /usr/share/applications/webcord.desktop
-exec webcord
+exec webcord --enable-features=WebRTCPipeWireCapturer %U
