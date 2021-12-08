@@ -2,7 +2,7 @@
 Name=WebCord
 Comment=A Discord Web App made with the Electron API
 GenericName=Internet Messenger
-Exec=/opt/webcord/updater.sh
+Exec=sh /opt/webcord/updater.sh
 Icon=webcord
 Type=Application
 StartupNotify=true
