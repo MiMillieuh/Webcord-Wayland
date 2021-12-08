@@ -1,4 +1,4 @@
-rm -rf /opt/webcordautoupdater.txt
+rm -rf /opt/webcord/webcordautoupdater.txt
 touch /opt/webcord/webcordautoupdater.txt
 wget -qO - https://api.github.com/repos/SpacingBat3/WebCord/releases/latest \
 | verdl= grep tag_name 
