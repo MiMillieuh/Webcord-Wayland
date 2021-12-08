@@ -12,4 +12,5 @@ mkdir /tmp/webcord
 | wget -cqi - -O /tmp/webcord/webcord.rpm
 sudo rpm -ivhU /tmp/webcord/webcord.rpm
 rm -rf /tmp/webcord
+rm -rf /usr/share/applications/webcord.desktop
 wget https://raw.githubusercontent.com/MiMillieuh/Webcord-Wayland/main/webcord.desktop -O /usr/share/applications/webcord.desktop
