@@ -1,5 +1,5 @@
-rm -rf /opt/webcordautoupdater
-touch ~/opt/webcord/webcordautoupdater.txt
+rm -rf /opt/webcordautoupdater.txt
+touch /opt/webcord/webcordautoupdater.txt
 wget -qO - https://api.github.com/repos/SpacingBat3/WebCord/releases/latest \
 | grep tag_name > /opt/webcord/webcordautoupdater.txt \
 mkdir /opt/webcord
