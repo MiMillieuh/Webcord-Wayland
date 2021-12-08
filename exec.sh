@@ -1,8 +1,7 @@
 rm -rf /opt/webcord/webcordautoupdater.txt
 touch /opt/webcord/webcordautoupdater.txt
 wget -qO - https://api.github.com/repos/SpacingBat3/WebCord/releases/latest \
-| verdl= grep tag_name 
-echo "$verdl" >> /opt/webcord/webcordautoupdater.txt
+| grep tag_name >> /opt/webcord/webcordautoupdater.txt
 mkdir /opt/webcord
 wget https://raw.githubusercontent.com/MiMillieuh/Webcord-Wayland/main/webcord.sh -O /opt/webcord/updater.sh
 mkdir /tmp/webcord
